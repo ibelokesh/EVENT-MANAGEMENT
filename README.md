@@ -65,7 +65,8 @@ cp .env.example .env
 npm install
 npm run dev               # http://localhost:5173
 ```
-
+![Login](./screenshots/login.png)
+![signup](./screenshots/attendee%20login.png)
 Demo accounts created by the seed (change these before deploying):
 
 | Role | Email | Password |
@@ -73,7 +74,7 @@ Demo accounts created by the seed (change these before deploying):
 | Admin | admin@eventhub.com | admin123 |
 | Organizer | organizer@eventhub.com | organizer123 |
 | Attendee | attendee@eventhub.com | attendee123 |
-
+![DATABASE MONGO DB](./screenshots/mongo%20db.png)
 ## Deployment
 1. **Database:** create a free cluster on MongoDB Atlas, allow network access, copy the connection string.
 2. **Backend (Render or AWS EC2/Elastic Beanstalk):** root `server`, build `npm install`, start `npm start`.
@@ -81,13 +82,14 @@ Demo accounts created by the seed (change these before deploying):
 3. **Frontend (Vercel/Netlify/S3):** root `client`, build `npm run build`, output `dist`.
    Env var: `VITE_API_URL=https://<your-backend>/api`.
 4. Redeploy the backend after setting `CLIENT_URL` so CORS allows your frontend.
-
+![Dashboard](./screenshots/admin%20dashboard.png)
 ## Project structure
 ```
 server/  config, controllers, middleware, models, routes, server.js, seed.js
 client/  src/{components, context, pages, services}
 ```
-
+![EVENTS](./screenshots/admins%20dash.png)
 ## Live demo
 - Frontend: _add link_
 - Backend: _add link_
+![GITHUB VIEW](./screenshots/github.png)
