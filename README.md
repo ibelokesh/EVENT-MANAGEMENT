@@ -90,6 +90,5 @@ client/  src/{components, context, pages, services}
 ```
 ![EVENTS](./screenshots/admins%20dash.png)
 ## Live demo
-- Frontend: _add link_
-- Backend: _add link_
+https://event-management-two-phi.vercel.app/login
 ![GITHUB VIEW](./screenshots/github.png)
