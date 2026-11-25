@@ -90,5 +90,5 @@ client/  src/{components, context, pages, services}
 ```
 ![EVENTS](./screenshots/admins%20dash.png)
 ## Live demo
-https://event-management-two-phi.vercel.app/login
+https://event-management-two-phi.vercel.app
 ![GITHUB VIEW](./screenshots/github.png)
